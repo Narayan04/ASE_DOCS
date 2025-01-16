@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2024.12.21.0" projectFile="C:\Users\naray\source\repos\ase-demo-assignment-Narayan04\Component 2\ase-demo-assignment-Narayan04\ase-demo-assignment-Narayan04\Documentation with SHFB.shfbproj" started="1/16/2025 9:22:50 AM">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2024.12.21.0" projectFile="C:\Users\naray\source\repos\ase-demo-assignment-Narayan04\Component 2\ase-demo-assignment-Narayan04\ase-demo-assignment-Narayan04\Documentation with SHFB.shfbproj" started="1/16/2025 9:29:54 AM">
 <buildStep step="Initializing">
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder&#39;
 Locating components in the following folder(s):
@@ -19,61 +19,65 @@ Validating and copying documentation source information
 Source: C:\Users\naray\source\repos\ase-demo-assignment-Narayan04\Component 2\ase-demo-assignment-Narayan04\ase-demo-assignment-Narayan04\ASE_Canvas_2\ASE_Canvas_2\bin\Debug\net8.0-windows\ASE_Canvas_2.dll
     Found assembly &#39;C:\Users\naray\source\repos\ase-demo-assignment-Narayan04\Component 2\ase-demo-assignment-Narayan04\ase-demo-assignment-Narayan04\ASE_Canvas_2\ASE_Canvas_2\bin\Debug\net8.0-windows\ASE_Canvas_2.dll&#39;
 Source: C:\Users\naray\source\repos\ase-demo-assignment-Narayan04\Component 2\ase-demo-assignment-Narayan04\ase-demo-assignment-Narayan04\ASE_Canvas_2\ASE_Canvas_2\bin\Debug\net8.0-windows\YourProject.xml
+Source: C:\Users\naray\source\repos\ase-demo-assignment-Narayan04\Component 2\ase-demo-assignment-Narayan04\ase-demo-assignment-Narayan04\ASE_Canvas_2\ASE_CanvasTesting_2\bin\Debug\net8.0-windows\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+Source: C:\Users\naray\source\repos\ase-demo-assignment-Narayan04\Component 2\ase-demo-assignment-Narayan04\ase-demo-assignment-Narayan04\ASE_Canvas_2\ASE_CanvasTesting_2\bin\Debug\net8.0-windows\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+    Found assembly &#39;C:\Users\naray\source\repos\ase-demo-assignment-Narayan04\Component 2\ase-demo-assignment-Narayan04\ase-demo-assignment-Narayan04\ASE_Canvas_2\ASE_CanvasTesting_2\bin\Debug\net8.0-windows\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll&#39;
 
 Copying XML comments files
     C:\Users\naray\source\repos\ase-demo-assignment-Narayan04\Component 2\ase-demo-assignment-Narayan04\ase-demo-assignment-Narayan04\ASE_Canvas_2\ASE_Canvas_2\bin\Debug\net8.0-windows\YourProject.xml -&gt; C:\Users\naray\source\repos\ase-demo-assignment-Narayan04\Component 2\ase-demo-assignment-Narayan04\ase-demo-assignment-Narayan04\Help\Working\YourProject.xml
+    C:\Users\naray\source\repos\ase-demo-assignment-Narayan04\Component 2\ase-demo-assignment-Narayan04\ase-demo-assignment-Narayan04\ASE_Canvas_2\ASE_CanvasTesting_2\bin\Debug\net8.0-windows\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml -&gt; C:\Users\naray\source\repos\ase-demo-assignment-Narayan04\Component 2\ase-demo-assignment-Narayan04\ase-demo-assignment-Narayan04\Help\Working\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
 </buildStep>
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
-    Last step completed in 00:00:00.0126
+    Last step completed in 00:00:00.0050
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.0170
+    Last step completed in 00:00:00.0275
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
-[C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-53099397-44d9-4ae4-a08c-dda167565fff.proj]
-Build started 1/16/2025 9:22:51 AM.
+[C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-9d276d09-467b-4bf0-9086-4555d4a26eee.proj]
+Build started 1/16/2025 9:29:55 AM.
 
-Project &quot;C:\Users\naray\source\repos\ase-demo-assignment-Narayan04\Component 2\ase-demo-assignment-Narayan04\ase-demo-assignment-Narayan04\Help\Working\GenerateRefInfo-53099397-44d9-4ae4-a08c-dda167565fff.proj&quot; on node 1 (default targets).
+Project &quot;C:\Users\naray\source\repos\ase-demo-assignment-Narayan04\Component 2\ase-demo-assignment-Narayan04\ase-demo-assignment-Narayan04\Help\Working\GenerateRefInfo-9d276d09-467b-4bf0-9086-4555d4a26eee.proj&quot; on node 1 (default targets).
 PrepareForBuild:
   Creating directory &quot;obj\Debug\&quot;.
 GenerateRefInfo:
   Microsoft.Build (v17.13.0-preview-24568-05+37fc8280dd8516257e7d04b9fc5e426de33091f2)
   c Microsoft Corporation. All rights reserved.
   No source code context base path specified.  Source context information is unavailable.
-  Loaded 1 assemblies for reflection and 1 dependency assemblies.
+  Loaded 2 assemblies for reflection and 1 dependency assemblies.
   Using framework redirect &#39;System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&#39; in place of &#39;System.Windows.Forms, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&#39;
   Using framework redirect &#39;System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&#39; in place of &#39;System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&#39;
-MRefBuilder : warning : Ignoring unresolved assembly reference: System.Collections (System.Collections, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by ASE_Canvas_2 [C:\Users\naray\source\repos\ase-demo-assignment-Narayan04\Component 2\ase-demo-assignment-Narayan04\ase-demo-assignment-Narayan04\Help\Working\GenerateRefInfo-53099397-44d9-4ae4-a08c-dda167565fff.proj]
-MRefBuilder : warning : Ignoring unresolved assembly reference: System.Drawing.Common (System.Drawing.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51) required by ASE_Canvas_2 [C:\Users\naray\source\repos\ase-demo-assignment-Narayan04\Component 2\ase-demo-assignment-Narayan04\ase-demo-assignment-Narayan04\Help\Working\GenerateRefInfo-53099397-44d9-4ae4-a08c-dda167565fff.proj]
-MRefBuilder : warning : Ignoring unresolved assembly reference: System.Collections.NonGeneric (System.Collections.NonGeneric, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by ASE_Canvas_2 [C:\Users\naray\source\repos\ase-demo-assignment-Narayan04\Component 2\ase-demo-assignment-Narayan04\ase-demo-assignment-Narayan04\Help\Working\GenerateRefInfo-53099397-44d9-4ae4-a08c-dda167565fff.proj]
-MRefBuilder : warning : Ignoring unresolved assembly reference: System.Drawing.Primitives (System.Drawing.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by ASE_Canvas_2 [C:\Users\naray\source\repos\ase-demo-assignment-Narayan04\Component 2\ase-demo-assignment-Narayan04\ase-demo-assignment-Narayan04\Help\Working\GenerateRefInfo-53099397-44d9-4ae4-a08c-dda167565fff.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: System.Collections (System.Collections, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by ASE_Canvas_2 [C:\Users\naray\source\repos\ase-demo-assignment-Narayan04\Component 2\ase-demo-assignment-Narayan04\ase-demo-assignment-Narayan04\Help\Working\GenerateRefInfo-9d276d09-467b-4bf0-9086-4555d4a26eee.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: System.Drawing.Common (System.Drawing.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51) required by ASE_Canvas_2 [C:\Users\naray\source\repos\ase-demo-assignment-Narayan04\Component 2\ase-demo-assignment-Narayan04\ase-demo-assignment-Narayan04\Help\Working\GenerateRefInfo-9d276d09-467b-4bf0-9086-4555d4a26eee.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: System.Collections.NonGeneric (System.Collections.NonGeneric, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by ASE_Canvas_2 [C:\Users\naray\source\repos\ase-demo-assignment-Narayan04\Component 2\ase-demo-assignment-Narayan04\ase-demo-assignment-Narayan04\Help\Working\GenerateRefInfo-9d276d09-467b-4bf0-9086-4555d4a26eee.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: System.Drawing.Primitives (System.Drawing.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by ASE_Canvas_2 [C:\Users\naray\source\repos\ase-demo-assignment-Narayan04\Component 2\ase-demo-assignment-Narayan04\ase-demo-assignment-Narayan04\Help\Working\GenerateRefInfo-9d276d09-467b-4bf0-9086-4555d4a26eee.proj]
   Using framework redirect &#39;System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39; in place of &#39;System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39;
   Using framework redirect &#39;Accessibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39; in place of &#39;Accessibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39;
-MRefBuilder : warning : Ignoring unresolved assembly reference: System.Collections.NonGeneric (System.Collections.NonGeneric, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by BOOSE [C:\Users\naray\source\repos\ase-demo-assignment-Narayan04\Component 2\ase-demo-assignment-Narayan04\ase-demo-assignment-Narayan04\Help\Working\GenerateRefInfo-53099397-44d9-4ae4-a08c-dda167565fff.proj]
-  Wrote information on 8 namespaces, 47 types, and 223 members
+MRefBuilder : warning : Ignoring unresolved assembly reference: System.Collections.NonGeneric (System.Collections.NonGeneric, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by BOOSE [C:\Users\naray\source\repos\ase-demo-assignment-Narayan04\Component 2\ase-demo-assignment-Narayan04\ase-demo-assignment-Narayan04\Help\Working\GenerateRefInfo-9d276d09-467b-4bf0-9086-4555d4a26eee.proj]
+  Wrote information on 9 namespaces, 49 types, and 248 members
   Merging duplicate type and member information
   Merged 0 duplicate type(s) and 0 duplicate member(s)
-Done Building Project &quot;C:\Users\naray\source\repos\ase-demo-assignment-Narayan04\Component 2\ase-demo-assignment-Narayan04\ase-demo-assignment-Narayan04\Help\Working\GenerateRefInfo-53099397-44d9-4ae4-a08c-dda167565fff.proj&quot; (default targets).
-    Last step completed in 00:00:01.3338
+Done Building Project &quot;C:\Users\naray\source\repos\ase-demo-assignment-Narayan04\Component 2\ase-demo-assignment-Narayan04\ase-demo-assignment-Narayan04\Help\Working\GenerateRefInfo-9d276d09-467b-4bf0-9086-4555d4a26eee.proj&quot; (default targets).
+    Last step completed in 00:00:01.1009
 </buildStep>
 <buildStep step="ApplyDocumentModel">
 Applying document model to reflection output...
-    Last step completed in 00:00:00.2190
+    Last step completed in 00:00:00.2152
 </buildStep>
 <buildStep step="AddApiTopicFilenames">
 Adding topic filenames to API members...
-    Last step completed in 00:00:00.2054
+    Last step completed in 00:00:00.2120
 </buildStep>
 <buildStep step="GenerateApiTopicManifest">
 Generating API topic manifest...
-    Last step completed in 00:00:00.2028
+    Last step completed in 00:00:00.1985
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.0501
+    Last step completed in 00:00:00.0580
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
@@ -82,27 +86,27 @@ No additional content to copy
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0010
 </buildStep>
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file for API content...
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00.0595
+    Last step completed in 00:00:00.0605
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
-    Last step completed in 00:00:00.5190
+    Last step completed in 00:00:00.2050
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00.0120
+    Last step completed in 00:00:00.0100
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
 C:\Users\naray\source\repos\ase-demo-assignment-Narayan04\Component 2\ase-demo-assignment-Narayan04\ase-demo-assignment-Narayan04\Help\Working\BuildAssembler.config
   Updating reference topic configurations.
   No conceptual content.  Removing conceptual content components.
-    Last step completed in 00:00:00.0190
+    Last step completed in 00:00:00.0210
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
@@ -4221,14 +4225,14 @@ SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ASE_Canvas_2.File_Handl
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ASE_Canvas_2.File_Handler.Commands.Triangle.CheckParameters(System.String[])] Unknown reference link target &#39;T:BOOSE.CommandException&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ASE_Canvas_2.File_Handler.Commands.Triangle.Execute] Unknown reference link target &#39;M:BOOSE.ICommand.Execute&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ASE_Canvas_2.File_Handler.Commands.Triangle.Execute] Unknown reference link target &#39;T:BOOSE.RestrictionException&#39;.
-Processed 416 topic(s)
-4111 warning(s)
-CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 4 of 15.
-CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 4 of 30.
-SaveComponent: Waiting for the document writer task to finish (2 Website API file(s) remaining)...
+SHFB: Warning BE0066: ShowMissingComponent: [N:Microsoft.VisualStudio.TestTools.UnitTesting] Missing &lt;summary&gt; documentation
+Processed 451 topic(s)
+4112 warning(s)
+CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 6 of 15.
+CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 5 of 30.
 <plugIn name="Website Table of Contents Generator" behavior="After" priority="1000">
 Generating TOC fragment files
-</plugIn>    Last step completed in 00:00:09.9737
+</plugIn>    Last step completed in 00:00:07.6510
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -4264,27 +4268,27 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Defaul
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.inc.php -&gt; C:\Users\naray\source\repos\ase-demo-assignment-Narayan04\Component 2\ase-demo-assignment-Narayan04\ase-demo-assignment-Narayan04\Help\Working\Output\Website\SearchHelp.inc.php
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.php -&gt; C:\Users\naray\source\repos\ase-demo-assignment-Narayan04\Component 2\ase-demo-assignment-Narayan04\ase-demo-assignment-Narayan04\Help\Working\Output\Website\SearchHelp.php
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\Web.Config -&gt; C:\Users\naray\source\repos\ase-demo-assignment-Narayan04\Component 2\ase-demo-assignment-Narayan04\ase-demo-assignment-Narayan04\Help\Working\Output\Website\Web.Config
-    Last step completed in 00:00:00.3026
+    Last step completed in 00:00:00.0620
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
-    Last step completed in 00:00:00.5016
+    Last step completed in 00:00:00.5019
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
 
 Copied 500 files
-Copied 610 files for the website content
-    Last step completed in 00:00:00.8194
+Copied 654 files for the website content
+    Last step completed in 00:00:00.8652
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00.2036
+    Last step completed in 00:00:00.1507
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 1/16/2025 9:23:05 AM.  Total time: 00:00:15.1883
+Build completed successfully at 1/16/2025 9:30:06 AM.  Total time: 00:00:12.1794
 
 </buildStep>
 </shfbBuild>

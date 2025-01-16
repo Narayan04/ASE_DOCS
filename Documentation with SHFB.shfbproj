@@ -23,7 +23,9 @@
     <Language>en-US</Language>
     <DocumentationSources>
       <DocumentationSource sourceFile="ASE_Canvas_2\ASE_Canvas_2\bin\Debug\net8.0-windows\ASE_Canvas_2.dll" />
-<DocumentationSource sourceFile="ASE_Canvas_2\ASE_Canvas_2\bin\Debug\net8.0-windows\YourProject.xml" /></DocumentationSources>
+<DocumentationSource sourceFile="ASE_Canvas_2\ASE_Canvas_2\bin\Debug\net8.0-windows\YourProject.xml" />
+<DocumentationSource sourceFile="ASE_Canvas_2\ASE_CanvasTesting_2\bin\Debug\net8.0-windows\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" />
+<DocumentationSource sourceFile="ASE_Canvas_2\ASE_CanvasTesting_2\bin\Debug\net8.0-windows\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll" /></DocumentationSources>
     <HelpFileFormat>Website</HelpFileFormat>
     <SyntaxFilters>Standard</SyntaxFilters>
     <PresentationStyle>Default2022</PresentationStyle>
